@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkU3-K8_p-c916NGxRN4Kact7r5vPULI&libraries=places"></script>
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="icon-container">
+                <img id='icon' src="http://openweathermap.org/img/wn/10d@2x.png">
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="general-information">
+                <div class="status" data-status>Enter a Location</div>
+                <div class="location" data-location>To Find the Weather</div>
+            </div>
+            <div class="detail-section">
+                <div class="detail">
+                    <div class="title">Temperatura</div>
+                    <div class="value" data-temp>TBD</div>
+                </div>
+            </div>
+            <div class="detail-section">
+                <div class="detail bordered">
+                    <div class="title">Sensación Térmica</div>
+                    <div class="value" data-overcast>TBD</div>
+                </div>
+            </div>
+            <div class="detail-section">
+                <div class="detail">
+                    <div class="title">Viento</div>
+                    <div class="value" data-wind>TBD</div>
+                </div>
+            </div>
+            <div class="detail-section">
+                <div class="detail bordered">
+                    <div class="title">Humedad</div>
+                    <div class="value" data-humedad>TBD</div>
+                </div>
+            </div>
+            <div class="detail-section">
+                <div class="detail">
+                    <div class="title">Presión</div>
+                    <div class="value" data-presion>TBD</div>
+                </div>
+            </div>
+            <div class="city-search-container">
+                <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
